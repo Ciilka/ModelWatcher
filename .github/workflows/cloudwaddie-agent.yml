@@ -43,7 +43,7 @@ jobs:
       # Checkout with cloudwaddie-agent's PAT
       - uses: actions/checkout@v6
         with:
-          token: ${{ secrets.GH_PAT }}
+          token: ${{ secrets.GH_PAT || github.token }}
           fetch-depth: 0
 
       # Git config - commits as cloudwaddie-agent
