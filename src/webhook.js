@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const LOGO_URL = 'https://raw.githubusercontent.com/CloudWaddie/ModelWatcher/master/logo.jpg';
+const LOGO_URL = 'https://raw.githubusercontent.com/Ciilka/ModelWatcher/master/logs/CIILKX.jpg';
 
 const MAX_EMBEDS_PER_MESSAGE = 10;
 const MAX_MODELS_PER_EMBED = 50;
@@ -203,7 +203,7 @@ export function createNewModelsEmbed(endpointName, models) {
         color: 0x10B981,
         timestamp: new Date().toISOString(),
         footer: {
-          text: 'Model Watcher • AI Model Scanner',
+          text: 'Developed by Ciilka on X',
           icon_url: LOGO_URL
         }
       }]
