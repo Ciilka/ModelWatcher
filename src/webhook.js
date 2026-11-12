@@ -233,7 +233,7 @@ export function createNewModelsEmbed(endpointName, models) {
       fields,
       timestamp: new Date().toISOString(),
       footer: {
-        text: 'Model Watcher • AI Model Scanner',
+        text: 'Developed by Ciilka on X',
         icon_url: LOGO_URL
       }
     }]
@@ -261,7 +261,7 @@ export function createRemovedModelsEmbed(endpointName, models) {
         color: 0xEF4444,
         timestamp: new Date().toISOString(),
         footer: {
-          text: 'Model Watcher • AI Model Scanner',
+          text: 'Developed by Ciilka on X',
           icon_url: LOGO_URL
         }
       }]
@@ -291,7 +291,7 @@ export function createRemovedModelsEmbed(endpointName, models) {
       fields,
       timestamp: new Date().toISOString(),
       footer: {
-        text: 'Model Watcher • AI Model Scanner',
+        text: 'Developed by Ciilka on X',
         icon_url: LOGO_URL
       }
     }]
@@ -357,7 +357,7 @@ export function createUpdatedModelsEmbed(endpointName, updates, commitSha = null
         color: 0xF59E0B,
         timestamp: new Date().toISOString(),
         footer: {
-          text: 'Model Watcher • AI Model Scanner',
+          text: 'Developed by Ciilka on X',
           icon_url: LOGO_URL
         }
       }]
@@ -399,7 +399,7 @@ export function createUpdatedModelsEmbed(endpointName, updates, commitSha = null
       fields,
       timestamp: new Date().toISOString(),
       footer: {
-        text: 'Model Watcher • AI Model Scanner',
+        text: 'Developed by Ciilka on X',
         icon_url: LOGO_URL
       }
     }]
@@ -428,7 +428,7 @@ export function createErrorEmbed(endpointName, error) {
       ],
       timestamp: new Date().toISOString(),
       footer: {
-        text: 'Model Watcher • AI Model Scanner',
+        text: 'Developed by Ciilka on X',
         icon_url: LOGO_URL
       }
     }]
