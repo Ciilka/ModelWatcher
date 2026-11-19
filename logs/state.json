@@ -522,6 +522,13 @@
           "shutdown_date": null
         },
         {
+          "id": "gpt-live-1.1",
+          "name": "gpt-live-1.1",
+          "owned_by": "system",
+          "object": "model",
+          "shutdown_date": null
+        },
+        {
           "id": "gpt-live-transcribe",
           "name": "gpt-live-transcribe",
           "owned_by": "system",
